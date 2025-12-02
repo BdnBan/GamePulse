@@ -23,4 +23,3 @@ GameVerse/
 |- js/ script.js
 |
 |- images/  balatro.jpg
-
