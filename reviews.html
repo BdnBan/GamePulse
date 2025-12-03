@@ -2,15 +2,20 @@
 <html lang="uk">
 <head>
     <meta charset="UTF-8">
-    <title>Огляди — GameVerse</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Огляди — GamePulse</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
 
 <header>
-    <h1>GameVerse</h1>
-    <nav>
+    <h1>GamePulse</h1>
+    <div class="burger" id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <nav id="navMenu">
         <ul>
             <li><a href="index.html">Головна</a></li>
             <li><a href="news.html">Новини</a></li>
@@ -23,15 +28,17 @@
     </nav>
 </header>
 
-
-<main>
-    <h2>Огляди ігор</h2>
-    <p>На цій сторінці ви знайдете огляди популярних ігор.</p>
+<main class="main-container">
+    <section class="content">
+        <h2>Огляди ігор</h2>
+        <p>На цій сторінці ви знайдете огляди популярних ігор.</p>
+    </section>
 </main>
 
 <footer>
-    <p>© 2025 GameVerse</p>
+    <p>© 2025 GamePulse</p>
 </footer>
 
+<script src="js/menu.js"></script>
 </body>
 </html>

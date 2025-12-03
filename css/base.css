@@ -1,0 +1,62 @@
+/* ====== Шрифти ====== */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Orbitron:wght@500;700&family=Montserrat:wght@500&display=swap');
+
+/* ====== Загальні стилі ====== */
+body {
+    background-color: #0D0D0D;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Контейнери */
+main, header, footer, nav {
+    padding: 20px;
+}
+
+/* Заголовки */
+h1, h2, h3 {
+    font-family: 'Orbitron', sans-serif;
+    color: #FFFFFF;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #7F00FF;
+}
+
+h3 {
+    color: #3DD9EB;
+}
+
+/* Абзаци */
+p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+/* Списки */
+ul, ol {
+    margin-left: 25px;
+}
+
+ul li, ol li {
+    padding: 5px 0;
+}
+
+/* Посилання */
+a {
+    color: #3DD9EB;
+}
+a:hover {
+    opacity: 0.8;
+}
+
+/* Зображення */
+img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin: 10px 0;
+}

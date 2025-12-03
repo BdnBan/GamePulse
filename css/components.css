@@ -1,0 +1,115 @@
+/* ====== Форми ====== */
+form {
+    background-color: #1E1E1E;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #7F00FF;
+    max-width: 500px;
+    margin: 20px auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label,
+form input,
+form textarea,
+form button {
+    width: 100%;
+    max-width: 400px;
+}
+
+form button {
+    background-color: #7F00FF;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    border-radius: 6px;
+    font-family: 'Montserrat', sans-serif;
+    transition: background 0.3s;
+    margin-top: 15px;
+}
+
+form button:hover {
+    background-color: #5e00c7;
+}
+
+label {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #3DD9EB;
+    margin-bottom: 5px;
+}
+
+/* Поля */
+input, textarea {
+    border: 1px solid #7F00FF;
+    background-color: #0D0D0D;
+    color: white;
+    border-radius: 6px;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus:valid,
+textarea:focus:valid {
+    border-color: #3DD9EB;
+    box-shadow: 0 0 5px #3DD9EB;
+    outline: none;
+}
+
+input:focus:invalid,
+textarea:focus:invalid {
+    border-color: #FF4D4D;
+    box-shadow: 0 0 5px #FF4D4D;
+    outline: none;
+}
+
+/* Повідомлення про помилку */
+.error-message {
+    color: #FF4D4D;
+    font-size: 13px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    display: none;
+}
+
+/* ====== Бургер-кнопка ====== */
+.burger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+    width: 30px;
+    margin: 10px auto;
+}
+
+.burger span {
+    display: block;
+    height: 3px;
+    background: #7F00FF;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+/* Кнопки */
+button {
+    background-color: #7F00FF;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    border-radius: 6px;
+    font-family: 'Montserrat', sans-serif;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #5e00c7;
+}
